@@ -3,7 +3,11 @@
 scraped by querying [random streams](https://www.twitch.tv/directory/random)
 and then querying who those streamers are following.
 
-this was done every 5 minutes for roughly 62 hours: 2016-05-15 to 2016-05-18.
+for the 0.5 million dataset, querying was done
+every 5 minutes for roughly 62 hours: 2016-05-15 to 2016-05-18.
+this was continued until 2016-06-23 to acquire the 1 million dataset.
+this was continued further until 2016-07-11 to acquire the 1.5 million dataset.
+scraping was discontinued from then on.
 
 ## bias
 
@@ -30,7 +34,7 @@ would have their following json files overwritten by the newer versions
 — not too big of a deal.
 
 this data might be uploaded at some point.
-it currently stands at 2 GiB for the half-million dataset.
+it currently stands at 13 GiB uncompressed for the million-half dataset.
 
 ## notes on usernames
 
@@ -55,5 +59,3 @@ the `name` field was used for this dataset.
 * upload json data
 
 * upload scraping scripts
-
-* upload million user dataset (when we get there)
